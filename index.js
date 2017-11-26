@@ -24,4 +24,4 @@ function increaseRankBy(n){
   
  
   }
-}
+
