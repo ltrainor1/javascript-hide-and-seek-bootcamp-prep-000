@@ -24,8 +24,7 @@ function increaseRankBy(n){
     var b = a[i].getElementsByTagName('li')
   
   for (var j = 0; j < b.length; j++){
-    var number = b[j].innerHTML 
-    number = parseInt(number) + n
+   b[j].innerHTML = parseInt(b[j].innerHML) + n
   }
   }
   }
