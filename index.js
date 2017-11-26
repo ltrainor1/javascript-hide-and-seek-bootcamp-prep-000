@@ -20,6 +20,6 @@ function increaseRankBy(n){
   var a = document.querySelector('ranked-1st').getElementsByTagName('li')
   
   for (var i = 0; i < a.length; i++){
-    a[i].innerHTML.set(a[i].innerHTML + n)
+    a[i].innerHTML = a[i].innerHTL + n
   }
 }
