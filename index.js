@@ -17,9 +17,14 @@ function deepestChild(){
 }
 
 function increaseRankBy(n){
-  var a = document.querySelectorAll('ranked-list').getElementsByTagName('li')
+  var a = document.querySelectorAll('ranked-list')
   
   for (var i = 0; i < a.length; i++){
-    a[i].innerHTML = a[i].innerHTL + n
+  
+  a[i] = getElementsByTagName('li')
+  
+  for (var j = 0; j < a[i].length; j++){
+    a[i][j].innerHTML = parseInt(a[i][j].innerHTL) + n
   }
+}
 }
