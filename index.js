@@ -21,10 +21,10 @@ function increaseRankBy(n){
   
   for (var i = 0; i < a.length; i++){
   
-  a[i] = getElementsByTagName('li')
+  var b = a[i].getElementsByTagName('li')
   
-  for (var j = 0; j < a[i].length; j++){
-    a[i][j].innerHTML += n
+  for (var j = 0; j < b.length; j++){
+    b[j].innerHTML += n
   }
 }
 }
